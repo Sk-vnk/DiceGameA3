@@ -16,3 +16,7 @@ body{
     background-image: url(./Images/poker.png.png);
     
 }
+
+#playAgain{
+    display: none;
+}
