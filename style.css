@@ -1,3 +1,8 @@
+#Welcome{
+    color: rgb(14, 237, 215);
+    font-weight: bolder;
+}
+
 #box{
     display: flex;
     flex-direction: column;
@@ -5,4 +10,9 @@
     justify-content: center;
     border: solid 3px;
     padding: 30px;
+    background-color: rgba(0, 183, 255, 0.487);
+}
+body{
+    background-image: url(./Images/poker.png.png);
+    
 }
