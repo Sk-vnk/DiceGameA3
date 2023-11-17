@@ -20,11 +20,13 @@ roll.addEventListener('click', () => {
     if (random == 1){
             info.textContent = "You LOSE!";
             playAgain.style.display = "block";
+            roll.style.display = "none";
     }
 
     if(total>19){
             info.textContent = "You WIN!";
            playAgain.style.display = "block";
+           roll.style.display = "none";
     }
 })
 
@@ -34,5 +36,5 @@ playAgain.addEventListener('click', () => {
     info.textContent = "Player 1";
     image.src="./images/Dice1.png";
     playAgain.style.display="none";
-    
+    roll.style.display = "block";    
 })
