@@ -1,6 +1,7 @@
 #Welcome{
     color: rgb(14, 237, 215);
     font-weight: bolder;
+    margin: 0;
 }
 
 #box{
@@ -11,12 +12,43 @@
     border: solid 3px;
     padding: 30px;
     background-color: rgba(0, 183, 255, 0.487);
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
 }
-body{
+.container{
     background-image: url(./Images/poker.png.png);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
 }
 
 #playAgain{
+    width: 90px;
+    height: 50px;
     display: none;
+    color: rgb(255, 255, 0);
+    background-color: black;
+}
+
+#roll{
+    width: 90px;
+    height: 50px;
+    color: aliceblue;
+    background-color: black;
+}
+
+#rule{
+    color: rgb(0, 68, 255);
+    font-weight: bolder;
+    text-align: center;
 }
